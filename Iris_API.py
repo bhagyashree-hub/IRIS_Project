@@ -1,9 +1,8 @@
-from distutils.log import debug
+
 from flask import Flask ,render_template,request,jsonify
 import numpy as np
 import pickle
 from Iris_Project_Data.utils import IrisSpeciesPrediction
-import config
 
 
 app = Flask(__name__)
